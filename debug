@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# node build/webpack.dev.js
+NODE_ENV=development node build/webpack.dev.js --hot

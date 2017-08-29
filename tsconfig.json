@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noEmitOnError": false,
+        "noLib": false,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "allowJs": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "./typings/modules/react/index.d.ts",
+        "./typings/modules/react-dom/index.d.ts",
+        "./typings/modules/react-redux/index.d.ts",
+        "./typings/globals/react-router-dom/index.d.ts",
+        "./src/app.tsx"
+    ]
+}

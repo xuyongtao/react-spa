@@ -1,4 +1,4 @@
-# 91mobile 全民教育移动端
+# 简单react单页面框架
 
 ## 概述
 
@@ -9,7 +9,7 @@
 ## 线下前端人员运行
 
 ```bash
-$ cd 项目根目录（如：cd ~/workplace/91/moblie）
+$ cd 项目根目录（如：cd ~/workplace/my-project）
 $ npm install
 $ ./debug
 ```
@@ -19,21 +19,21 @@ $ ./debug
 ## 线下后端人员运行
 
 ```bash
-$ cd 项目根目录（如：cd ~/workplace/91/moblie）
+$ cd 项目根目录（如：cd ~/workplace/my-project）
 $ npm install
-$ ./release -d ./a/b -p http://m.qmjy.dev/
+$ ./release -d ./a/b -p http://my.project.com/
 ```
 
-打开浏览器访问 [http://m.qmjy.dev/]
+打开浏览器访问 [http://my.project.com/]
 -d 该参数指定前端项目发布到的本地地址，需为相对路径
--p 该参数指定后端跑该项目的服务器地址（如：http://m.qmjy.dev/）
+-p 该参数指定后端跑该项目的服务器地址（如：http://my.project.com/）
 
 ## 线上管理人员运行
 
 ```bash
-$ cd 项目根目录（如：cd ~/mobile-backstage）
+$ cd 项目根目录（如：cd ~/my-project）
 $ npm install
-$ ./release -d ./backstage.qmin91.com
+$ ./release -d ./my.project.com
 ```
 
 -d 该参数指定前端项目发布到的本地地址，需为相对路径
